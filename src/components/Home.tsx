@@ -1,17 +1,7 @@
 import { Project } from "../utils/Project";
 import { Logos } from "./Logos";
 import photo from "../assets/photo.jpg";
-import chat_room from "../assets/projects/chat_room.png";
-import chat_room_t from "../assets/projects/chat_room_t.png";
-import curr_convertor from "../assets/projects/curr_convertor.png";
-import pass_gen from "../assets/projects/pass_gen.png";
-import pass_gen_t from "../assets/projects/pass_gen_t.png";
-import private_routes from "../assets/projects/private_routes.png";
-import todo from "../assets/projects/todo.png";
-import todo_t from "../assets/projects/todo_t.png";
 
-import user_auth from "../assets/projects/user_auth.png";
-import user_auth_t from "../assets/projects/user_auth_t.png";
 
 
 export const Home = () => {
