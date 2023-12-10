@@ -1,8 +1,19 @@
 import { ProjectInterface } from "./Interface/ProjectInterface";
+import chat_room from "../assets/projects/chat_room.png";
+import chat_room_t from "../assets/projects/chat_room_t.png";
+import curr_convertor from "../assets/projects/curr_convertor.png";
+import pass_gen from "../assets/projects/pass_gen.png";
+import pass_gen_t from "../assets/projects/pass_gen_t.png";
+import private_routes from "../assets/projects/private_routes.png";
+import todo from "../assets/projects/todo.png";
+import todo_t from "../assets/projects/todo_t.png";
+
+import user_auth from "../assets/projects/user_auth.png";
+import user_auth_t from "../assets/projects/user_auth_t.png";
 
 export const Project: ProjectInterface[] = [{
-    banner: "src/assets/projects/chat_room.png",
-    techStackImg: "src/assets/projects/chat_room_t.png",
+    banner: chat_room,
+    techStackImg: chat_room_t,
     title: "Chat Room",
     desc: "A platform designed for private conversations with your friends. Ensure your discussions are confidential and protected.",
     live: {
@@ -12,8 +23,8 @@ export const Project: ProjectInterface[] = [{
     github: "https://github.com/vishaltalukar66/Chat-Room"
 },
 {
-    banner: "src/assets/projects/pass_gen.png",
-    techStackImg: "src/assets/projects/pass_gen_t.png",
+    banner: pass_gen,
+    techStackImg: pass_gen_t,
     title: "Password Generator",
     desc: "Password Generator using React, allowing users to customize their passwords with numbers, special characters, and select a length ranging from 8 to 25 characters.",
     live: {
@@ -23,8 +34,8 @@ export const Project: ProjectInterface[] = [{
     github: "https://github.com/vishaltalukar66/password_generator"
 },
 {
-    banner: "src/assets/projects/todo.png",
-    techStackImg: "src/assets/projects/todo_t.png",
+    banner: todo,
+    techStackImg: todo_t,
     title: "To Do",
     desc: "A simple ToDo web app built with React and Redux, where data is stored in the browser's localStorage.",
     live: {
@@ -35,8 +46,8 @@ export const Project: ProjectInterface[] = [{
 },
 
 {
-    banner: "src/assets/projects/user_auth.png",
-    techStackImg: "src/assets/projects/user_auth_t.png",
+    banner: user_auth,
+    techStackImg: user_auth_t,
     title: "User Authentication",
     desc: "A robust User Authentication Portal crafted with the power of Fastify, Node.js, MongoDB, and TypeScript.",
     live: {
@@ -48,8 +59,8 @@ export const Project: ProjectInterface[] = [{
 
 
 {
-    banner: "src/assets/projects/private_routes.png",
-    techStackImg: "src/assets/projects/pass_gen_t.png",
+    banner: private_routes,
+    techStackImg: pass_gen_t,
     title: "Private Routes in React Front End",
     desc: "Private Routes in React is a demonstration of how to implement user authentication and private routes in a React application. With this setup, users can log in, verify their cookies, and access confidential data once authenticated.",
     live: {
@@ -61,7 +72,7 @@ export const Project: ProjectInterface[] = [{
 
 
 {
-    banner: "src/assets/projects/private_routes.png",
+    banner: private_routes,
     techStackImg: "src/assets/projects/user_auth_t.png",
     title: "Private Routes in React Back End",
     desc: "Private Routes in React is a demonstration of how to implement user authentication and private routes in a React application. With this setup, users can log in, verify their cookies, and access confidential data once authenticated.",
@@ -73,8 +84,8 @@ export const Project: ProjectInterface[] = [{
 },
 
 {
-    banner: "src/assets/projects/curr_convertor.png",
-    techStackImg: "src/assets/projects/pass_gen_t.png",
+    banner: curr_convertor,
+    techStackImg: pass_gen_t,
     title: "Currency Converter",
     desc: "Private Routes in React is a demonstration of how to implement user authentication and private routes in a React application. With this setup, users can log in, verify their cookies, and access confidential data once authenticated.",
     live: {
