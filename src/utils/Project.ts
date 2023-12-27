@@ -98,7 +98,7 @@ export const Project: ProjectInterface[] = [
 
     {
         banner: private_routes,
-        techStackImg: "src/assets/projects/user_auth_t.png",
+        techStackImg: "user_auth_t",
         title: "Private Routes in React Back End",
         desc: "Private Routes in React is a demonstration of how to implement user authentication and private routes in a React application. With this setup, users can log in, verify their cookies, and access confidential data once authenticated.",
         live: {
