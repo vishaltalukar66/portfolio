@@ -53,7 +53,7 @@ export const Home = () => {
                             {/* links */}
                             <div className="mt-5 flex text-xl items-center justify-center gap-3">
                                 {val.live.isLive ? (<div>
-                                    <a href={val.live.link}>
+                                    <a href={val.live.link} target="_blank">
                                         <button className="rounded-md p-1 pl-3 pr-3 bg-yellow-400 hover:bg-yellow-200"> <i className="fa-solid fa-laptop" /> Visit Site
                                         </button>
                                     </a>
@@ -61,7 +61,7 @@ export const Home = () => {
 
 
                                 <div>
-                                    <a href={val.github}>
+                                    <a href={val.github} target="_blank">
                                         <button className="rounded-md bg-yellow-400 hover:bg-yellow-200 p-1 pl-3 pr-3 "> <i className="fa-brands fa-square-github" /> GitHub
                                         </button>
                                     </a></div>
