@@ -12,8 +12,21 @@ import webrtc_t from "../assets/projects/webrtc_t.png";
 import user_auth from "../assets/projects/user_auth.png";
 import user_auth_t from "../assets/projects/user_auth_t.png";
 import webSS from "../assets/projects/webSS.png";
+import nextb from "../assets/projects/nextb.png";
+import nextss from "../assets/projects/nextss.png";
 
 export const Project: ProjectInterface[] = [
+    {
+        banner: nextss,
+        techStackImg: nextb,
+        title: "NextJs Basic Authentication Web App",
+        desc: "This web application, built using Next.js and MongoDB, provides essential features for user authentication and account management. ",
+        live: {
+            isLive: true,
+            link: "https://nextjs-auth-web-app.vercel.app/"
+        },
+        github: "https://github.com/vishaltalukar66/nextjs-auth-web-app"
+    },
     {
         banner: webSS,
         techStackImg: webrtc_t,
