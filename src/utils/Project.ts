@@ -14,8 +14,21 @@ import user_auth_t from "../assets/projects/user_auth_t.png";
 import webSS from "../assets/projects/webSS.png";
 import nextb from "../assets/projects/nextb.png";
 import nextss from "../assets/projects/nextss.png";
+import techSecure from "../assets/projects/techSecure.png";
+import secureSS from "../assets/projects/secureSS.png";
 
 export const Project: ProjectInterface[] = [
+    {
+        banner: secureSS,
+        techStackImg: techSecure,
+        title: "Secure Image Storage",
+        desc: "This project enables users to securely store and manage images by leveraging the power of Amazon S3 (Simple Storage Service). It incorporates user authentication to ensure data privacy and employs signed URLs for controlled access to images.",
+        live: {
+            isLive: true,
+            link: "https://secure-image-storage.vercel.app"
+        },
+        github: "https://github.com/vishaltalukar66/secure-image-storage"
+    },
     {
         banner: nextss,
         techStackImg: nextb,
