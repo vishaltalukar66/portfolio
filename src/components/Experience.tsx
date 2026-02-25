@@ -1,33 +1,34 @@
 import React from "react";
-const experienceData = [
+let experienceData = [
   {
-    duration: "February 2023 - August 2023",
+    duration: "Feb 2023 - Aug 2023",
     role: "Web Developer Intern",
     company: "<b>Falabella</b>, India",
     responsibilities: [
-      "Collaborated with the team under the guidance of the <b>Director of stores</b>, to brainstorm and execute multiple <b>Proof of Concepts (POCs)</b> in order to achieve a <b>igital Receipt system</b> for <b>in-store</b> customers.",
+      "Collaborated with <b>retail leadership</b> to develop a <b>Digital Receipt</b> system prototype, demonstrating potentialannual savings of <b>$500,000</b>.",
+      "Led the transition from in-store paper workflows to digital formats.",
     ],
   },
   {
-    duration: "January 2024 - April 2024",
+    duration: "Jan 2024 - Apr 2024",
     role: "Junior Software Developer",
     company: "<b>IdeaDox (Freelancer)</b>, India",
     responsibilities: [
-      "Developed web based <b>multi-tenant</b> applications within the cab service sector.",
-      "Leveraged <b>AWS Lambda functions</b> to enhance backend systems scalability and reliability.",
-      "Implemented notification channels via email and WhatsApp.",
+      "Developed <b>web-based multi-tenant systems</b> tailored for the <b>cab service sector</b>.",
+      "Leveraged <b>AWS Lambda</b> to build scalable, event-driven backend services, improving <b>system reliability</b>.",
+      "Implemented automated notification <b>workflows</b> using Email and WhatsApp API integrations.",
+      "Integrated <b>LLM APIs</b> into a healthcare application",
     ],
   },
   {
-    duration: "May 2024 - February 2025",
+    duration: "May 2024 - Feb 2025",
     role: "Full stack developer",
     company: "<b>CloudTara Technologies</b>, India",
     responsibilities: [
-      "Worked directly with clients to understand their requirements and translate them into working features.",
-      "Designed a <b>multi-tenant application</b> with a <b>built-in communication feature</b> that allowed team members to collaborate and message each other with ease.",
-      "Achived file handling with <b>access controls</b> for each user to safeguard files securely.",
-      "Used a <b>third-party API</b> to generate file previews onthe-fly.",
-      "Enhanced <b>session management</b>",
+      "Designed and implemented a <b>multi-tenant</b> application  featuring a built-in collaboration and messagingmodule.",
+      "Developed a <b>secure file management system</b> with user-specific <b>access controls</b> and integrated third-party <b>APIs</b> for real-time file previews.",
+      "Engineered robust <b>server-side session</b> handling to ensure secure user authentication and data persistence.",
+      "Acted as a <b>technical bridge</b> for clients, translating business requirements into <b>functional software specifications</b>.",
     ],
   },
 ];
@@ -38,23 +39,27 @@ type Experience = {
   company: string;
   responsibilities: string[];
 };
+experienceData = experienceData.reverse();
 
 const ExperienceList: React.FC = () => {
   return (
-    <ol className="relative  md:border-l-2 border-l-0  m-3 md:m-14 p-5">
-      {experienceData.reverse().map((item: Experience, index: number) => (
-        <li className="mb-10 ms-4 bg-white p-5 rounded-3xl" key={index}>
-          <div className="absolute w-3 h-3 bg-yellow-400 rounded-full mt-1.5 -start-1.5 border border-white hidden md:block" />
-          <time className="mb-1 font-normal leading-none text-md">
-            {item.duration}
-          </time>
-          <h3 className="text-lg font-semibold text-gray-900 ">{item.role}</h3>
+    <ol className="relative  md:border-l-2 md:border-gray-400 border-l-0  p-2 m-5 md:m-14 md:p-5 ">
+      {experienceData.map((item: Experience, index: number) => (
+        <li className="mb-10  bg-white p-5 rounded-3xl" key={index}>
+          <div className="bg-black rounded-full mt-1  -start-2  w-4 h-4 absolute hidden md:block" />
+
+          {/* <div className="absolute w-3 h-3 bg-black rounded-full mt-1.5 -start-1.5 border border-white hidden md:block" /> */}
+
+          <h3 className="text-lg font-semibold text-black ">{item.role}</h3>
           <p className="mb-2 text-base font-normal text-gray-600 ">
             <div
               dangerouslySetInnerHTML={{
                 __html: item.company,
               }}
             />
+            <time className="mb-1 font-normal leading-none text-md">
+              {item.duration}
+            </time>
           </p>
           <p className="mb-4 text-justify text-lg ml-5">
             <ul className="list-disc pl-5 text-justify">

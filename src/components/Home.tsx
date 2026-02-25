@@ -14,10 +14,10 @@ export const Home = () => {
           <img src={photo} alt="photo" className="rounded-full w-32 md:w-52" />
         </div>
 
-        <div className="text-4xl p-5 text-white font-mono font-semibold">
+        <div className="text-4xl p-5 text-black font-mono font-semibold">
           Vishal Talukar
         </div>
-        <div className="text-lg  text-white font-mono font-semibold">
+        <div className="text-lg  text-black font-mono font-semibold">
           Full Stack Developer
         </div>
 
@@ -25,7 +25,7 @@ export const Home = () => {
       </div>
       {/* projects */}
       <div id="projects">
-        <div className="text-center rounded-3xl font-mono font-semibold text-3xl p-1 mb-10 bg-yellow-400 text-white">
+        <div className="text-center rounded-3xl font-mono font-semibold text-3xl p-1 mb-10 bg-black text-white">
           Projects
         </div>
         <div className="flex flex-wrap w-full gap-5 p-10 items-center justify-center">
@@ -90,7 +90,7 @@ export const Home = () => {
       </div>
       {/* experience */}
       <div className="pb-28" id="experience">
-        <div className="text-center rounded-3xl font-mono font-semibold text-3xl p-1 mb-10 bg-yellow-400 text-white">
+        <div className="text-center rounded-3xl font-mono font-semibold text-3xl p-1 mb-10 bg-black text-white">
           Experience
         </div>
 

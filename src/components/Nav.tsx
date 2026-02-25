@@ -55,7 +55,7 @@ export const Nav = () => {
                   <li>
                     <a
                       href="#"
-                      className="block py-2 px-3 hover:text-blue-700"
+                      className="block py-2 px-3 hover:text-yellow-500"
                       onClick={() => {
                         handleMobileNav();
                       }}
@@ -66,7 +66,7 @@ export const Nav = () => {
                   <li>
                     <a
                       href="#projects"
-                      className="block py-2 px-3 hover:text-blue-700"
+                      className="block py-2 px-3 hover:text-yellow-500"
                       onClick={() => {
                         handleMobileNav();
                       }}
@@ -78,7 +78,7 @@ export const Nav = () => {
                   <li>
                     <a
                       href="#experience"
-                      className="block py-2 px-3 hover:text-blue-700"
+                      className="block py-2 px-3 hover:text-yellow-500"
                       onClick={() => {
                         handleMobileNav();
                       }}
@@ -93,7 +93,7 @@ export const Nav = () => {
                         handleMobileNav();
                         handlePopUp();
                       }}
-                      className="block py-2 px-3 hover:text-blue-700"
+                      className="block py-2 px-3 hover:text-yellow-500"
                     >
                       <i className="fa-solid fa-file" /> Resume
                     </a>
@@ -109,14 +109,17 @@ export const Nav = () => {
               >
                 <ul className="flex text-white flex-col p-4 md:p-0 mt-4 font-medium border border-gray-100 rounded-lg md:space-x-8 rtl:space-x-reverse md:flex-row md:mt-0 md:border-0 ">
                   <li>
-                    <a href="#" className="block py-2 px-3 hover:text-blue-700">
+                    <a
+                      href="#"
+                      className="block py-2 px-3 hover:text-yellow-500"
+                    >
                       <i className="fa-solid fa-house " /> Home
                     </a>
                   </li>
                   <li>
                     <a
                       href="#projects"
-                      className="block py-2 px-3 hover:text-blue-700"
+                      className="block py-2 px-3 hover:text-yellow-500"
                     >
                       {" "}
                       <i className="fa-solid fa-diagram-project" /> Projects
@@ -125,7 +128,7 @@ export const Nav = () => {
                   <li>
                     <a
                       href="#experience"
-                      className="block py-2 px-3 hover:text-blue-700"
+                      className="block py-2 px-3 hover:text-yellow-500"
                     >
                       <i className="fa-solid fa-book" /> Experience
                     </a>
@@ -136,7 +139,7 @@ export const Nav = () => {
                       onClick={() => {
                         handlePopUp();
                       }}
-                      className="block py-2 px-3 hover:text-blue-700"
+                      className="block py-2 px-3 hover:text-yellow-500"
                     >
                       <i className="fa-solid fa-file" /> Resume
                     </a>
@@ -176,7 +179,7 @@ export const Nav = () => {
                       className="text-white rounded-md p-1 pl-3 pr-3 bg-green-600 hover:bg-green-500 flex h-full w-full items-center justify-center gap-2"
                       onClick={() => {
                         window.open(
-                          "https://drive.google.com/drive/folders/1q9kKLh04f5-bE_Dwiyf5GR_p6BkQHAIY?usp=sharing"
+                          "https://drive.google.com/drive/folders/1q9kKLh04f5-bE_Dwiyf5GR_p6BkQHAIY?usp=sharing",
                         );
                       }}
                     >
